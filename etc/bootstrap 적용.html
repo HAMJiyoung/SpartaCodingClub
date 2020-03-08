@@ -22,10 +22,10 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
-        <link href="https://fonts.googleapis.com/css?family=Stylish&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet">
         <style type="text/css">
             * {
-              font-family: 'Stylish', sans-serif;
+                font-family: 'Noto Sans KR', sans-serif;
             }
             .wrap {
               width: 900px;
@@ -35,13 +35,21 @@
               color: blue;
               font-weight: bold;
             }
+            .form_postbox{
+                max-width: 500px;
+                padding: 2rem;
+                margin: 2rem auto;
+                border: solid;
+                border-radius: 0.3rem;
+                border-color: black;
+                display: block;
+            }
+            
           </style>
 </head>
 
 <body>
-    <div class="wrap"
-    style="width: 900px;
-    margin: 0 auto;">
+    <div class="wrap">
         <div class="jumbotron">
             <h1 class="display-4">나홀로 링크 메모장!</h1>
             <p class="lead">중요한 링크를 저장해두고, 나중에 볼 수 있는 공간입니다</p>
@@ -49,6 +57,21 @@
                 <a class="btn btn-primary btn-lg" href="#" role="button">포스팅박스 열기</a>
             </p>
         </div>
+
+        <form class="form_postbox">
+            <div>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">아티클 URL</label>
+                    <input type="url" class="form-control" id="exampleFormControlInput1" placeholder="something.com">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleFormControlTextarea1">간단 코멘트</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+            </div>
+            <div>
+                <a class="btn btn-primary btn-lg" href="#" role="button">기사 저장</a></div>
+          </form>
     
         <div class="card-columns">
             <div class="card">
