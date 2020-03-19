@@ -1,0 +1,179 @@
+<head>
+    <title>Very Merry Unbirthday</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,900&display=swap" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <style>
+        .wrap {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 100 auto;
+            width: 90%;
+        }
+
+        .picture {
+            width: 400px;
+            height: 300px;
+        }
+
+        .font {
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .titlefont {
+            font-weight: 900;
+            font-size: 50px;
+        }
+
+        .justfont {
+            font-size: 20px;
+        }
+
+        .bkbtn {
+            background-color: black;
+            color: white;
+        }
+
+        .form-group-bg {
+            color: white;
+            text-align: center;
+            background-color: #151515;
+            background-size: auto;
+            background-position: center;
+            border-radius: 10px;
+            flex-basis: 50px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto;
+            width: 70%;
+            padding: 20px 10px 20px 10px;
+        }
+
+        * {
+            font-family: 'Noto Sans KR', sans-serif;
+        }
+    </style>
+
+    <script>
+        function order() {
+            var name = $('#order_name').val();
+            var count = $('#order_count').val();
+            var address = $('#order_address').val();
+            var phonenumber = $('#order_phonenumber').val();
+            var checkbox = $('#gridCheck1').val();
+
+            if (name == '') {
+                alert('이름을 입력하세요.');
+                $("#order_name").focus();
+            } else if (count == '') {
+                alert('수량을 선택해주세요.');
+                $("#order_count").focus();
+            } else if (address == '') {
+                alert('주소를 입력해주세요.');
+                $("#order_address").focus();
+            } else if (phonenumber == '') {
+                alert('전화번호를 입력해주세요.');
+                $("#order_phonenumber").focus();
+            } else if ($('#gridCheck1').is(":not(:checked)")) {
+                alert('체크 박스를 확인해주세요.');
+                $('#gridCheck1').focus();
+            }
+        }
+
+    </script>
+</head>
+
+<body>
+    <div class="wrap">
+        <img class="picture"
+            src="https://media2.giphy.com/media/EcKk1Jta9TBxm/giphy.gif?cid=790b7611446ef37741a05bd4d157e1448a42fb9cfca1013a&rid=giphy.gif">
+        <br>
+        <br>
+        <div class="font">
+            <h1 class="titlefont">
+                Unbirthday Tea Party
+            </h1>
+            <p class="justfont">
+                가격: 1 모자 / 장
+            </p>
+            <p>
+                안 생일 축하 티 파티 입장권입니다.
+                <br>
+                즐거운 안 생일을 위해 당신을 초대합니다!
+            </p>
+        </div>
+
+        <br>
+        <div class="titlefont">
+            구매하기
+        </div>
+        <br>
+        <form class="form-group-bg">
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1" class="col-sm-10 col-form-label">주문자 성함</label>
+                <div class="col-sm-auto">
+                    <input id="order_name" type="text" class="form-control" rows="1" />
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="exampleFormControlSelect1" class="col-sm-10 col-form-label">수량</label>
+                <div class="col-sm-auto">
+                    <select id="order_count" class="form-control">
+                        <option>1</option>
+                        <option>2(1인 최대 구매 수량)</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1" class="col-sm-10 col-form-label">주소</label>
+                <div class="col-sm-auto">
+                    <input id="order_address" type="text" class="form-control" rows="1">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1" class="col-sm-10 col-form-label">전화번호</label>
+                <div class="col-sm-auto">
+                    <input id="order_phonenumber" type="text" class="form-control" rows="1">
+                </div>
+            </div>
+        </form>
+
+        <br>
+
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck1">
+            <label class="form-check-label" for="gridCheck1">
+                위 사항을 모두 확인하였습니다.
+            </label>
+        </div>
+
+        <br>
+        <button onclick="order()" type="button" class="btn bkbtn btn-lg">준비 완료!</button>
+    </div>
+</body>
