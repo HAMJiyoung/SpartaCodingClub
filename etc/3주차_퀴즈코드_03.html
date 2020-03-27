@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>JQuery 연습하고 가기!</title>
+    <!-- JQuery를 import 합니다 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <style type="text/css">
+        div.question-box {
+            margin: 10px 0 20px 0;
+        }
+
+        table {
+            border: 1px solid;
+            border-collapse: collapse;
+        }
+
+        td,
+        th {
+            padding: 10px;
+            border: 1px solid;
+        }
+    </style>
+
+    <script>
+        function q1() {
+            $('#names-q1').html('');
+            $.ajax({
+                type: "GET",
+                url: "https://8oi9s0nnth.apigw.ntruss.com/corona19-masks/v1/stores/json?page=1",
+                data: {},
+                success: function (response) {
+                    let rows = response["storeInfos"];
+                    for (let i = 0; i < rows.length; i++) {
+                        let store_name = rows[i]['name'];
+                        let store_adr = rows[i]['addr'];
+                        let store_type = rows[i]['type'];
+                        let temp_html = '<tr>\
+                                  <td>'+ store_name + '</td>\
+                                  <td>'+ store_adr + '</td>\
+                                  <td class="type">'+ store_type + '</td>\
+                                </tr>'
+                        $('#names-q1').append(temp_html);
+                        if (store_type == "01") {
+                            $('.type').show().text("약국");
+                        }
+                    }
+
+                }
+            })
+        }
+    </script>
+
+</head>
+
+<body>
+    <h1>JQuery+Ajax의 조합을 연습하자!</h1>
+
+    <hr />
+
+    <div class="question-box">
+        <h2>3. 공적마스크 판매 현황</h2>
+        <p>공적 마스크 판매 현황을 보여주세요</p>
+        <button onclick="q1()">업데이트</button>
+        <table>
+            <thead>
+                <tr>
+                    <td>판매처 이름</td>
+                    <td>판매처 위치</td>
+                    <td>판매처 유형</td>
+                </tr>
+            </thead>
+            <tbody id="names-q1">
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
