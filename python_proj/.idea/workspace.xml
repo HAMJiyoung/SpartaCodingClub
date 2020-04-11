@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fee68fe-0f67-4e61-b98a-072225b55148" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/server/templates/2nd.html" beforeDir="false" afterPath="$PROJECT_DIR$/server/templates/2nd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/favstar/app_star.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/favstar/mystar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/favstar/templates/index_star.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/server/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/server/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -31,15 +38,37 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../homework/2nd.html" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\함지영\Desktop\sparta\python_proj\server\favstar\templates" />
       <recent name="C:\Users\함지영\Desktop\sparta\python_proj\server" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.4th_homework">
-    <configuration name="4th_homework" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.4th_homework (1)">
+    <configuration name="4th_homework (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/server/4th" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/server/4th/4th_homework.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="app (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -51,7 +80,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/server/4th_homework.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/server/app.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -60,7 +89,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="app_star" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -68,11 +97,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/server/favstar" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\함지영\Desktop\sparta\python_proj\server\app.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/server/favstar/app_star.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -81,7 +110,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="meta" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -89,11 +118,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/server" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\함지영\Desktop\sparta\python_proj\server\app.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/server/meta" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -102,7 +131,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="find_update_ex" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="mystar" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -110,53 +139,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/server/favstar" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\함지영\Desktop\sparta\python_proj\server\find_update_ex.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="insert_example" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="untitled" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\함지영\Desktop\sparta\python_proj\server\insert_example.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="mongo_example" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="untitled" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\함지영\Desktop\sparta\python_proj\server\mongo_example.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/server/favstar/mystar.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -167,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.4th_homework" />
-        <item itemvalue="Python.app" />
-        <item itemvalue="Python.insert_example" />
-        <item itemvalue="Python.find_update_ex" />
-        <item itemvalue="Python.mongo_example" />
+        <item itemvalue="Python.4th_homework (1)" />
+        <item itemvalue="Python.app_star" />
+        <item itemvalue="Python.mystar" />
+        <item itemvalue="Python.app (1)" />
+        <item itemvalue="Python.meta" />
       </list>
     </recent_temporary>
   </component>
@@ -193,31 +180,35 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="655" y="200" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1584776360233" />
+    <state x="1205" y="346" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585975900036">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1205" y="346" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1585975900036" />
     <state x="980" y="300" key="FileChooserDialogImpl" timestamp="1585815969085">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="980" y="300" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1585302362378" />
     <state x="980" y="300" key="FileChooserDialogImpl/1920.-3.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1585815969085" />
-    <state width="1110" height="266" key="GridCell.Tab.0.bottom" timestamp="1585817986357">
+    <state width="1124" height="263" key="GridCell.Tab.0.bottom" timestamp="1585993900603">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1110" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1585389755107" />
-    <state width="1110" height="266" key="GridCell.Tab.0.bottom/1920.-3.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1585817986357" />
-    <state width="1110" height="266" key="GridCell.Tab.0.center" timestamp="1585817986357">
+    <state width="1124" height="263" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1585993900603" />
+    <state width="1110" height="266" key="GridCell.Tab.0.bottom/1920.-3.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1585818737421" />
+    <state width="1124" height="263" key="GridCell.Tab.0.center" timestamp="1585993900603">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1110" height="266" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1585389755107" />
-    <state width="1110" height="266" key="GridCell.Tab.0.center/1920.-3.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1585817986357" />
-    <state width="1110" height="266" key="GridCell.Tab.0.left" timestamp="1585817986357">
+    <state width="1124" height="263" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1585993900603" />
+    <state width="1110" height="266" key="GridCell.Tab.0.center/1920.-3.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1585818737421" />
+    <state width="1124" height="263" key="GridCell.Tab.0.left" timestamp="1585993900603">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1110" height="266" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1585389755107" />
-    <state width="1110" height="266" key="GridCell.Tab.0.left/1920.-3.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1585817986357" />
-    <state width="1110" height="266" key="GridCell.Tab.0.right" timestamp="1585817986357">
+    <state width="1124" height="263" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1585993900603" />
+    <state width="1110" height="266" key="GridCell.Tab.0.left/1920.-3.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1585818737421" />
+    <state width="1124" height="263" key="GridCell.Tab.0.right" timestamp="1585993900603">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1110" height="266" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1585389755107" />
-    <state width="1110" height="266" key="GridCell.Tab.0.right/1920.-3.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1585817986357" />
+    <state width="1124" height="263" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1585993900603" />
+    <state width="1110" height="266" key="GridCell.Tab.0.right/1920.-3.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1585818737421" />
     <state width="1252" height="328" key="GridCell.Tab.1.bottom" timestamp="1585389750169">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -234,14 +225,18 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1252" height="328" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1585389750169" />
-    <state x="702" y="187" key="SettingsEditor" timestamp="1585375979506">
+    <state x="702" y="187" key="SettingsEditor" timestamp="1585979793431">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="702" y="187" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1585375979506" />
-    <state x="786" y="375" key="com.intellij.ide.util.TipDialog" timestamp="1585814375551">
+    <state x="702" y="187" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1585979793431" />
+    <state x="786" y="375" key="com.intellij.ide.util.TipDialog" timestamp="1586583265195">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="786" y="375" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1585372801459" />
+    <state x="786" y="375" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1586583265195" />
     <state x="786" y="375" key="com.intellij.ide.util.TipDialog/1920.-3.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1585814375551" />
+    <state x="1103" y="240" key="search.everywhere.popup" timestamp="1585976270125">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1103" y="240" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1585976270125" />
   </component>
 </project>
